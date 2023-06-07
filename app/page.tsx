@@ -1,4 +1,4 @@
-
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -40,19 +40,37 @@ export default function Home() {
 
           <div className='pt-3 pr-1'>
             <a href='https://www.linkedin.com/in/ashish-job/'>
-              <img src='/linkedin.svg' className='rounded-xl hover:bg-green-hover'></img>
+              <Image className='rounded-xl hover:bg-green-hover'
+                src='/linkedin.svg' 
+                alt={'LinkedIn'}
+                width={50}
+                height={50}
+                >
+                </Image> 
             </a>
           </div>
 
-          <div className='pt-3 pl-1 pr-1'>
+          <div className='pt-3 pr-1'>
             <a href='https://github.com/Ashishjob'>
-              <img src='/github.svg' className='rounded-full hover:bg-green-hover'></img>
+              <Image className='rounded-full hover:bg-green-hover'
+                src='/github.svg' 
+                alt={'GitHub'}
+                width={50}
+                height={50}
+                >
+                </Image> 
             </a>
           </div>
 
-          <div className='pt-3 pl-1'>
-            <a href='/resume.pdf'>
-              <img src='/resume.png' className='rounded-xl hover:bg-green-hover'></img>
+          <div className='pt-3 pr-1'>
+            <a href='resume.pdf'>
+              <Image className='rounded-xl hover:bg-green-hover'
+                src='/resume.png' 
+                alt={'Resume'}
+                width={50}
+                height={50}
+                >
+                </Image> 
             </a>
           </div>
 
