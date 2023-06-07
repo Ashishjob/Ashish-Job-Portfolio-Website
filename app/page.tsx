@@ -3,7 +3,7 @@
 export default function Home() {
   return (
 
-    <main className="flex min-h-screen flex-col bg-lightgreen overflow-x-auto">
+    <main className="flex min-h-screen overflow-y-auto min-w-screen overflow-x-auto flex-col bg-lightgreen">
       <div className="flex top-36 h-12 w-27 items-center justify-center pt-24 pb-4 font-semibold text-3xl text-green text-decoration-line: hover:underline">
         <h1 className='w-27'>
           ASHISH - K - JOB
@@ -65,10 +65,11 @@ export default function Home() {
         <hr className="w-1 h-48 bg-green border0 rounded dark:bg-green"></hr>
       </div>
 
-      <div className="absolute left-1/3 pl-64">
-        <hr className="fixed w-1 top-56 h-96 bg-green border0 rounded dark:bg-green"></hr>
-        <hr className="fixed w-1 bottom-28 h-96 bg-green border0 rounded dark:bg-green"></hr>
+      <div className="absolute left-1/3 pl-64 bottom-1/2 transform translate-y-96">
+        <hr className="w-1 h-64 bg-green border0 rounded dark:bg-green"></hr>
+        <hr className="w-1 h-96 bg-green border0 rounded dark:bg-green"></hr>
       </div>
+
 
       <div className='absolute top-52 py-2 left-1/2 text-green text-start'>
         
@@ -121,18 +122,8 @@ export default function Home() {
             I worked to construct the frontend of the admin portal of the organization to allow for easier user interaction.
           </h2>
         </div>
-
-        {/* <div className='py-2'>
-          <h1 className='w-27 font-semibold text-2xl text-decoration-line: hover:underline pb-2 '>
-            "Hacker" @ CougarCS InfoSec
-          </h1>
-
-          <h2 className='py-1 pl-6 pr-16 text-lg'>
-            I worked to construct applications to scrape opensourced data in order to provide immediate news concerning cybsersecurity.
-          </h2>
-        </div> */}
-
       </div>
     </main>
+    
   )
 }
