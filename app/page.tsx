@@ -65,8 +65,8 @@ export default function Home() {
         <hr className="w-1 h-72 bg-green border0 rounded dark:bg-green"></hr>
       </div>
 
-      <div className="flex top-64 pl-72 transform -translate-y-3/4 translate-x-1/3">
-        <hr style={{ height: '640px' }} className="w-1 bg-green border0 rounded dark:bg-green"></hr>
+      <div className="flex pl-64 transform -translate-y-1/3 translate-x-1/3">
+        <hr style={{ height: '600px' }} className="w-1 bg-green border0 rounded dark:bg-green"></hr>
       </div>
 
       <div className="absolute top-52 py-2 left-1/2 text-green text-start">
