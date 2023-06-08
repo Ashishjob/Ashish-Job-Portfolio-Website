@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -102,7 +102,7 @@ export default function Home() {
           </h1>
 
           <h2 className="py-1 pl-6 pr-16 text-lg">
-            I led a team held in charge of comprehensively comparing the company's security policies wth a gap analysis.
+            I led a team held in charge of comprehensively comparing the company&apos;s security policies wth a gap analysis.
           </h2>
         </div>
 
@@ -112,7 +112,7 @@ export default function Home() {
           </h1>
 
           <h2 className="py-1 pl-6 pr-16 text-lg">
-            I worked as a logistics officer and handled securing food vendors, venue booking, and scheduling arrangements at Houston's largest hackathon.
+            I worked as a logistics officer and handled securing food vendors, venue booking, and scheduling arrangements at Houston&apos;s largest hackathon.
           </h2>
         </div>
 
