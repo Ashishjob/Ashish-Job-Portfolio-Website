@@ -2,11 +2,7 @@
 const nextConfig = {
     // Other configuration options...
   
-    output: {
-      exportPathMap: () => ({
-        "/": { page: "/" },
-      }),
-    },
+    output: "export",
   };
   
   module.exports = nextConfig;
