@@ -11,21 +11,22 @@ export default function Home() {
         <h1 className="w-27">| CS + Math Student @ UH | Undergraduate Research Assistant |</h1>
       </div>
 
-      <div className="absolute top-96 left-72 transform -translate-y-1/4 h-12 w-78 text-green">
-        <h1 className="font-semibold text-2xl hover:underline">About Me</h1>
+      <div className="fixed top-[47%] left-[15%] transform -translate-y-1/4">
+  <div className="h-12 w-78 md:h-auto md:w-auto text-green">
+    <h1 className="font-semibold text-2xl w-max hover:underline">About Me</h1>
+  </div>
 
-        <h2 className="font-base text-xl w-128 pt-3">
-          Hey there! My name is Ashish Job, and I am a
-          <br />
-          rising sophomore majoring in Computer Science with
-          <br />
-          a minor in Mathematics at the University of Houston.
-          <br />
-          <br />
-          Feel free to connect with me on LinkedIn and check out all
-          <br />
+
+
+
+        <h2 className="font-base text-xl w-11/12 pt-3">
+          Hey there! My name is Ashish Job, and I am<br />
+          a rising sophomore majoring in Computer<br />
+          Science with a minor in Mathematics at the University of Houston.<br /><br />
+          Feel free to connect with me on LinkedIn and check out all<br />
           my work on GitHub!
         </h2>
+
 
         <div className="flex">
           <div className="pt-3 pr-1">
@@ -66,14 +67,23 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="absolute top-96 pl-64">
-        <hr className="w-1 h-48 bg-green border0 rounded dark:bg-green"></hr>
+      <div className="flex top-[59%]] md:top-96 pl-4 md:pl-64 transform translate-y-2/3">
+        <hr className="w-1 h-80 bg-green border-0 rounded dark:bg-green"></hr>
       </div>
 
-      <div className="absolute left-1/3 pl-64 bottom-1/2 transform translate-y-96">
-        <hr className="w-1 h-64 bg-green border0 rounded dark:bg-green"></hr>
-        <hr className="w-1 h-96 bg-green border0 rounded dark:bg-green"></hr>
-      </div>
+      <div className="flex top-[56%] left-[48%] transform -translate-x-1/2 -translate-y-1/2 flex">
+
+    <hr className="w-1 h-96 bg-green border-0 rounded dark:bg-green"></hr>
+    {/* <hr className="w-1 h-96 bg-green border-0 rounded dark:bg-green"></hr> */}
+  </div>
+
+
+
+
+
+
+
+
 
       <div className="absolute top-52 py-2 left-1/2 text-green text-start">
         <div className="py-3">
