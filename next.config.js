@@ -1,10 +1,4 @@
-const withImages = require('next-images');
-const withCSS = require('@zeit/next-css');
+/** @type {import('next').NextConfig} */
+const nextConfig = {}
 
-module.exports = withImages(withCSS({
-  webpack(config) {
-    config.resolve.extensions.push('.ts', '.tsx');
-
-    return config;
-  },
-}));
+module.exports = nextConfig
