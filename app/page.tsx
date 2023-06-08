@@ -14,10 +14,10 @@ export default function Home() {
       <div className="absolute top-96 left-72 transform -translate-y-1/4 h-12 w-78 text-green">
         <h1 className="font-semibold text-2xl hover:underline">About Me</h1>
 
-        <h2 className="font-base text-xl w-3/4 pt-3">
+        <h2 className="font-base text-xl pt-4">
           Hey there! My name is Ashish Job, and I a <br />
           a rising sophomore majoring in Computer <br />
-          Science with a minor in Mathematics at the University of Houston.<br /><br />
+          Science with a minor in Mathematics at the <br />University of Houston.<br /><br />
           Feel free to connect with me on LinkedIn and <br />
           check out all my work on GitHub!
         </h2>

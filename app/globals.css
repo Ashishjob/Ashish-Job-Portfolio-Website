@@ -18,7 +18,8 @@
 }
 
 body {
-  overflow-x: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
