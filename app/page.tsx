@@ -45,7 +45,7 @@ export default function Home() {
         </h2>
       </div>
 
-        <div className="lg:absolute flex justify-center items-center lg:bottom-1/3 lg:translate-y-1/4 lg:left-72 pb-4">
+        <div className="lg:absolute flex justify-center items-center lg:bottom-1/3 lg:translate-y-2/3 lg:left-72 pb-4">
           <div className="pt-3 pr-1">
             <a href="https://www.linkedin.com/in/ashish-job/" target="_blank">
               <Image
@@ -89,14 +89,18 @@ export default function Home() {
       </div>
 
    
-      <div className="hidden lg:block lg:absolute lg:left-1/2 lg:top-20 transform translate-y-1/4 translate-x-20">
+      <div className="hidden md:absolute lg:block lg:absolute lg:left-1/2 lg:top-20 transform translate-y-1/4 translate-x-8">
         <hr style={{ height: '600px' }} className="w-1 bg-green border0 rounded dark:bg-green"></hr>
       </div>
 
+      <div className="hidden lg:hidden md:absolute md:block md:top-56 md:left-40">
+        <hr className="w-1 h-56 bg-green border0 rounded dark:bg-green"></hr>
+      </div>
 
-      <div className="sm:justify-center sm:items-center md:justify-center md:items-center top-52 py-2  left-1/2 text-green text-start">
-        <div className="py-3 ">
-          <h1 className="w-27 px-8 md:px-20 font-semibold text-xl md:text-2xl lg:text-2xl text-decoration-line: hover:underline pb-2">
+
+      <div className="lg:absolute lg:left-1/2 transform translate-x-8 sm:justify-center sm:items-center md:justify-center md:items-center top-52 py-2 right-12 text-green text-start">
+        <div className="py-3">
+          <h1 className="px-8 md:px-20 font-semibold text-xl md:text-2xl lg:text-2xl hover:underline pb-2">
             Undergraduate Researcher @ SAIL Lab
           </h1>
 
