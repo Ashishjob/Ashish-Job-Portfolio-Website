@@ -2,10 +2,10 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen overflow-y-auto min-w-screen overflow-x-auto flex-col bg-lightgreen">
+    <main className="flex flex-col min-h-screen min-w-screen bg-lightgreen lg:items-center">
 
     <div className="flex text-center items-center justify-center font-semibold text-4xl text-green hover:underline mt-12 lg:mt-16 md:mt-16">
-      <h1 className="w-80 md:text-center md:text-4xl md:w-full sm:text-xl">
+      <h1 className="md:text-center md:text-4xl md:w-full sm:text-xl">
         ASHISH - K - JOB
       </h1>
     </div>
@@ -43,9 +43,8 @@ export default function Home() {
           Feel free to connect with me on LinkedIn and
           check out all my work on GitHub!
         </h2>
-      </div>
 
-        <div className="lg:absolute flex justify-center items-center lg:bottom-1/3 lg:translate-y-2/3 lg:left-48 pb-4">
+        <div className="flex justify-center items-center">
           <div className="pt-3 pr-1">
             <a href="https://www.linkedin.com/in/ashish-job/" target="_blank">
               <Image
@@ -83,8 +82,11 @@ export default function Home() {
           </div>
         </div>
 
+      </div>
 
-      <div className="lg:absolute hidden lg:block top-52 left-40 transform translate-y-44">
+
+
+      <div className="lg:absolute lg:block hidden top-1/3 left-40 transform translate-y-12">
         <hr className="w-1 h-80 bg-green border0 rounded dark:bg-green"></hr>
       </div>
 
