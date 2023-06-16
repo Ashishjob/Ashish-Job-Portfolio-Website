@@ -2,7 +2,7 @@
 const nextConfig = {
     // Other configuration options...
   
-    //  output: "export",
+     output: "export",
   };
   
   module.exports = nextConfig;
