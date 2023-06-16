@@ -97,7 +97,7 @@ export default function Home() {
                 <a href="resume.pdf" target="_blank" title="My Resume">
                   <Image
                     className="rounded-xl hover:bg-green-hover"
-                    src="/Resume.png"
+                    src="/resume.png"
                     alt="Resume"
                     width={50}
                     height={50}

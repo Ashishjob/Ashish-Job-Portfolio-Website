@@ -25,8 +25,16 @@ export default function Contact() {
     </div>
 
     <div className='flex flex-row justify-center'>  
-        <div className="relative w-1/3 h-56">
+        <div className="relative w-1/3 mb-6">
             <textarea className="resize-y bg-white border-1 border-green text-green text-sm rounded-lg block w-full p-4" placeholder="Message"/>
+        </div>
+    </div>
+
+    <div className='flex flex-row justify-center'>  
+        <div className="relative w-1/6">
+            <button className="resize-y bg-white border-1 border-green text-green text-sm rounded-lg block w-full p-4 font-semibold hover:bg-textbox-green">
+                Submit
+            </button>
         </div>
     </div>
 
