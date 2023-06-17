@@ -113,7 +113,7 @@ export default function Experience() {
                 href="https://cougarcs.com//" 
             target="_blank" 
             className='bg-white border-2 border-green text-green rounded-lg block w-72 h-72 p-4 mt-12 lg:mt-0 lg:ml-20 hover:bg-textbox-green'>
-                <h1 className='font-semibold text-xl'>"Hacker" @ CougarCS<br /> InfoSec Team</h1>
+                <h1 className="font-semibold text-xl">&quot;Hacker&quot; @ CougarCS<br /> InfoSec Team</h1>
                 <h6 className='mt-2 font-semibold'> [February 2023 - Present] </h6>
                 <div className='flex flex-row text-base font-sm lg:ml-4 mt-2'>
                 Descriptions Coming Soon!!
