@@ -36,9 +36,11 @@ export default function Home() {
               About Me
             </h1>
             <h2 className="hidden lg:block text-xl pt-4 text-left">
-              Hey there! My name is Ashish Job, and I am <br />
-              a rising sophomore majoring in Computer <br />
-              Science with a minor in Mathematics at the <br />University of Houston.<br /><br />
+              Hey there! My name is Ashish Job, and I am majoring in <br />
+              Computer Science with a minor in Mathematics at the <br />
+              University of Houston. I'm incredibly passionate about the <br />
+              fields of Artificial Intelligence and Data Science.
+              <br /><br />
               Feel free to connect with me on LinkedIn and <br />
               check out all my work on GitHub!
             </h2>
@@ -49,8 +51,11 @@ export default function Home() {
 
             <h2 className="text-left lg:hidden hidden md:block font-base text-xl pt-4 lg:text-left">
               Hey there! My name is Ashish Job, and I am <br />
-              a rising sophomore majoring in Computer <br />
-              Science with a minor in Mathematics at the <br />University of Houston.<br /><br />
+              majoring in Computer Science with a minor in <br />
+              Mathematics at the University of Houston. <br />
+              I'm incredibly passionate about the fields of  <br />
+              Artificial Intelligence and Data Science.
+              <br /><br />
               Feel free to connect with me on LinkedIn and <br />
               check out all my work on GitHub!
             </h2>
@@ -60,10 +65,12 @@ export default function Home() {
             </h1>
 
             <h2 className="sm:hidden font-base text-base text-center px-6">
-              Hey there! My name is Ashish Job, and I am
-              a rising sophomore majoring in Computer 
-              Science with a minor in Mathematics at the University of Houston.<br />
-              Feel free to connect with me on LinkedIn and
+              Hey there! My name is Ashish Job, and I am <br />
+              majoring in Computer Science with a minor in <br />
+              Mathematics at the University of Houston. <br />
+              I'm incredibly passionate about the fields of  <br />
+              Artificial Intelligence and Data Science.<br /><br />
+              Feel free to connect with me on LinkedIn and <br />
               check out all my work on GitHub!
             </h2>
           
