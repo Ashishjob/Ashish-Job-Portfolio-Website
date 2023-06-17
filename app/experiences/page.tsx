@@ -123,7 +123,7 @@ export default function Experience() {
                 <a
                 href="https://www.codecoogs.com/" 
             target="_blank" 
-            className='bg-white border-2 border-green text-green rounded-lg block w-72 h-72 p-4 mt-12 lg:mt-0 lg:ml-20 hover:bg-textbox-green'>
+            className='bg-white border-2 border-green text-green rounded-lg block w-72 h-72 p-4 mt-12 lg:mt-0 lg:ml-20 lg:mb-0 mb-12 hover:bg-textbox-green'>
                 <h1 className='font-semibold text-xl'>Executive Intern  @ <br />Code[Coogs]</h1>
                 <h6 className='mt-2 font-semibold'> [January 2023 - May 2023] </h6>
                 <div className='flex flex-row text-base font-sm lg:ml-4 mt-2'>
