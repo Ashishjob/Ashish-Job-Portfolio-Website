@@ -1,50 +1,51 @@
-import NormalNavbar from '@/components/NavBar';
-import Image from 'next/image';
-import Link from 'next/link';
-import RootLayout from '../layout';
+import NormalNavbar from "@/components/NavBar";
+import Image from "next/image";
+import Link from "next/link";
+import RootLayout from "../layout";
 
 export default function Contact() {
   return (
-    <main className="flex flex-col min-h-screen min-w-screen bg-lightgreen">
+    <main className="min-w-screen bg-lightgreen flex min-h-screen flex-col">
+      <NormalNavbar />
 
-        <NormalNavbar/>
-        
-        <div className='flex flex-row justify-center mt-36 md:mt-56 text-3xl lg:text-4xl font-semibold text-green mb-6'>
-            CONTACT ME
+      <div className="text-green mb-6 mt-36 flex flex-row justify-center text-3xl font-semibold md:mt-56 lg:text-4xl">
+        CONTACT ME
+      </div>
+
+      <div className="mb-6 flex flex-row justify-center">
+        <div className="relative w-56 md:w-1/3">
+          <input
+            className="border-1 border-green text-green block w-full rounded-lg bg-white p-4 text-sm"
+            placeholder="Name"
+          />
         </div>
+      </div>
 
-
-        <div className='flex flex-row justify-center mb-6'>  
-            <div className="relative md:w-1/3 w-56">
-                <input className="bg-white border-1 border-green text-green text-sm rounded-lg block w-full p-4" 
-                placeholder="Name"/>
-            </div>
+      <div className="mb-6 flex flex-row justify-center">
+        <div className="relative w-56 md:w-1/3">
+          <input
+            className="border-1 border-green text-green block w-full rounded-lg bg-white p-4 text-sm"
+            placeholder="Email"
+          />
         </div>
+      </div>
 
-        <div className='flex flex-row justify-center mb-6'>  
-            <div className="relative md:w-1/3 w-56">
-                <input className="bg-white border-1 border-green text-green text-sm rounded-lg block w-full p-4" 
-                placeholder="Email"/>
-            </div>
+      <div className="mb-6 flex flex-row justify-center">
+        <div className="relative w-56 md:w-1/3">
+          <textarea
+            className="border-1 border-green text-green block w-full resize-y rounded-lg bg-white p-4 text-sm"
+            placeholder="Message"
+          />
         </div>
+      </div>
 
-        <div className='flex flex-row justify-center mb-6'>  
-            <div className="relative md:w-1/3 w-56">
-                <textarea className="resize-y bg-white border-1 border-green text-green text-sm rounded-lg block w-full p-4" 
-                placeholder="Message"/>
-            </div>
+      <div className="flex flex-row justify-center">
+        <div className="relative w-24 md:w-1/6">
+          <button className="border-1 border-green text-green hover:bg-textbox-green block w-full resize-y rounded-lg bg-white p-4 text-sm font-semibold">
+            Submit
+          </button>
         </div>
-
-        <div className='flex flex-row justify-center'>  
-            <div className="relative md:w-1/6 w-24">
-                <button className="resize-y bg-white border-1 border-green text-green text-sm rounded-lg block w-full p-4 font-semibold hover:bg-textbox-green">
-                    Submit
-                </button>
-            </div>
-        </div>
-
-
-      
+      </div>
     </main>
   );
 }
