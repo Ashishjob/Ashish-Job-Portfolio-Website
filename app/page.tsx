@@ -38,7 +38,7 @@ export default function Home() {
             <h2 className="hidden lg:block text-xl pt-4 text-left">
               Hey there! My name is Ashish Job, and I am majoring in <br />
               Computer Science with a minor in Mathematics at the <br />
-              University of Houston. I'm incredibly passionate about the <br />
+              University of Houston. I&apos;m incredibly passionate about the <br />
               fields of Artificial Intelligence and Data Science.
               <br /><br />
               Feel free to connect with me on LinkedIn and <br />
@@ -53,7 +53,7 @@ export default function Home() {
               Hey there! My name is Ashish Job, and I am <br />
               majoring in Computer Science with a minor in <br />
               Mathematics at the University of Houston. <br />
-              I'm incredibly passionate about the fields of  <br />
+              I&apos;m incredibly passionate about the fields of  <br />
               Artificial Intelligence and Data Science.
               <br /><br />
               Feel free to connect with me on LinkedIn and <br />
@@ -68,7 +68,7 @@ export default function Home() {
               Hey there! My name is Ashish Job, and I am <br />
               majoring in Computer Science with a minor in <br />
               Mathematics at the University of Houston. <br />
-              I'm incredibly passionate about the fields of  <br />
+              I&apos;m incredibly passionate about the fields of  <br />
               Artificial Intelligence and Data Science.<br /><br />
               Feel free to connect with me on LinkedIn and <br />
               check out all my work on GitHub!
