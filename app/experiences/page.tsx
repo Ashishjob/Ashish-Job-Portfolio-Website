@@ -101,7 +101,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [March 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                I contributed to the Admin Portal and Revamp teams by assembling/reconfiguring the website's front end. Using Git source control, I committed changes, created branches, and merged them.
+                I contributed to the Admin Portal and Revamp teams by assembling/reconfiguring the website&apos;s front end. Using Git source control, I committed changes, created branches, and merged them.
               </div>
             </a>
 
@@ -249,7 +249,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [March 2023 - May 2023] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I evaluated the institution's threat feed monitoring policies, identifying vulnerabilities to enhance cybersecurity, and I led a team promoting collaboration among all members.
+              I evaluated the institution&apos;s threat feed monitoring policies, identifying vulnerabilities to enhance cybersecurity, and I led a team promoting collaboration among all members.
               </div>
             </a>
 
@@ -264,7 +264,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [March 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I contributed to the Admin Portal and Revamp teams by assembling/reconfiguring the website's front end. Using Git source control, I committed changes, created branches, and merged them.
+              I contributed to the Admin Portal and Revamp teams by assembling/reconfiguring the website&apos;s front end. Using Git source control, I committed changes, created branches, and merged them.
               </div>
             </a>
           </div>
