@@ -44,8 +44,8 @@ export default function Project() {
                 CougarCS Admin Portal
               </h1>
               <h2 className="text-center">
-                Expanded the organization&apos;s Admin Portal for officers to
-                view members
+                Full-stack web-application that streamlines administrative
+                duties.
               </h2>
             </span>
           </a>
@@ -130,8 +130,8 @@ export default function Project() {
                 CougarCS Admin Portal
               </h1>
               <h2 className="text-center text-lg">
-                Expanded the organization&apos;s Admin Portal for officers to view
-                members
+                Full-stack web-application that streamlines administrative
+                duties.
               </h2>
             </span>
           </a>
