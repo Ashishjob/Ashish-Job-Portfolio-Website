@@ -26,8 +26,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [May 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                Descriptions Coming Soon!!
-                {/* I acquired data and utilized NERFstudio to detect anomalous comparisons between buildings pre and post disaster through computer vision and language modeling */}
+              I utilize Python, NerfStudio, and LERF to acquire and analyze data for Computer Vision and language modeling in order to detect faults in structures caused by natural disasters.
               </div>
             </a>
 
@@ -41,7 +40,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [May 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                Descriptions Coming Soon!!
+                I take part in events such as the IBM Quantum Explorers event as well as special events related to the quantum field featuring guest speakers and experts in industry and academia
               </div>
             </a>
 
@@ -56,7 +55,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                Descriptions Coming Soon!!
+              I am responsible for coordinating all logistical aspects of the event such as venue arrangements, accommodation, equipment procurement, and vendor/sponsor partnerships.
               </div>
             </a>
 
@@ -71,7 +70,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                Descriptions Coming Soon!!
+              I take part in all operational aspects of the biggest hackathon in Houston, ensuring a seamless experience for participants to focus on innovation and collaboration.
               </div>
             </a>
 
@@ -86,7 +85,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [March 2023 - May 2023] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                Descriptions Coming Soon!!
+              I evaluated the institution&apos;s threat feed monitoring policies, identifying vulnerabilities to enhance cybersecurity, and I led a team promoting collaboration among all members.
               </div>
             </a>
           </div>
@@ -102,7 +101,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [March 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                Descriptions Coming Soon!!
+                I contributed to the Admin Portal and Revamp teams by assembling/reconfiguring the website's front end. Using Git source control, I committed changes, created branches, and merged them.
               </div>
             </a>
 
@@ -117,7 +116,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                Descriptions Coming Soon!!
+              I establish relationships with organizations and organize events, workshops, and project teams to drive significant advancements in AI and ML for participating students.
               </div>
             </a>
 
@@ -132,7 +131,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                Descriptions Coming Soon!!
+              I ensure significant member participation and placement in multiple teams in software engineering and development projects and professional competitions throughout the organization.
               </div>
             </a>
 
@@ -150,7 +149,7 @@ export default function Experience() {
                 [February 2023 - Present]{" "}
               </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                Descriptions Coming Soon!!
+              I contributed to the development of a web-scraping bot for CyberNews, providing up-to-date cybersecurity news and training materials for certifications and exams.
               </div>
             </a>
 
@@ -168,7 +167,7 @@ export default function Experience() {
                 [January 2023 - May 2023]{" "}
               </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                Descriptions Coming Soon!!
+              I organized coding competitions and networking events for Code[Coogs] members, and led two sub-organizations to increase participation within the community.
               </div>
             </a>
           </div>
@@ -187,8 +186,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [May 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                Descriptions Coming Soon!!
-                {/* I acquired data and utilized NERFstudio to detect anomalous comparisons between buildings pre and post disaster through computer vision and language modeling */}
+                I utilize Python, NerfStudio, and LERF to acquire and analyze data for Computer Vision and language modeling in order to detect faults in structures caused by natural disasters.
               </div>
             </a>
 
@@ -202,14 +200,14 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [May 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                Descriptions Coming Soon!!
+              I take part in events such as the IBM Quantum Explorers event as well as special events related to the quantum field featuring guest speakers and experts in industry and academia
               </div>
             </a>
           </div>
 
           <div className="text-green ml-20 mt-12 flex flex-row justify-start">
             <a
-              href="https://sail.cive.uh.edu/"
+            //   href=""
               target="_blank"
               className="border-green text-green hover:bg-textbox-green block h-72 w-72 rounded-lg border-2 bg-white p-4"
             >
@@ -219,12 +217,12 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                Descriptions Coming Soon!!
+              I am responsible for coordinating all logistical aspects of the event such as venue arrangements, accommodation, equipment procurement, and vendor/sponsor partnerships.
               </div>
             </a>
 
             <a
-              href="https://www.qubitbyqubit.org/programs"
+              href="https://uhcode.red/"
               target="_blank"
               className="border-green text-green hover:bg-textbox-green ml-20 block h-72 w-72 rounded-lg border-2 bg-white p-4"
             >
@@ -234,14 +232,14 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                Descriptions Coming Soon!!
+              I take part in all operational aspects of the biggest hackathon in Houston, ensuring a seamless experience for participants to focus on innovation and collaboration.
               </div>
             </a>
           </div>
 
           <div className="text-green ml-20 mt-12 flex flex-row justify-start">
             <a
-              href="https://sail.cive.uh.edu/"
+              href="https://chrysallis.ai/"
               target="_blank"
               className="border-green text-green hover:bg-textbox-green block h-72 w-72 rounded-lg border-2 bg-white p-4"
             >
@@ -251,12 +249,12 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [March 2023 - May 2023] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                Descriptions Coming Soon!!
+              I evaluated the institution's threat feed monitoring policies, identifying vulnerabilities to enhance cybersecurity, and I led a team promoting collaboration among all members.
               </div>
             </a>
 
             <a
-              href="https://www.qubitbyqubit.org/programs"
+              href="https://cougarcs.com/"
               target="_blank"
               className="border-green text-green hover:bg-textbox-green ml-20 block h-72 w-72 rounded-lg border-2 bg-white p-4"
             >
@@ -266,14 +264,14 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [March 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                Descriptions Coming Soon!!
+              I contributed to the Admin Portal and Revamp teams by assembling/reconfiguring the website's front end. Using Git source control, I committed changes, created branches, and merged them.
               </div>
             </a>
           </div>
 
           <div className="text-green ml-20 mt-12 flex flex-row justify-start">
             <a
-              href="https://sail.cive.uh.edu/"
+            //   href=""
               target="_blank"
               className="border-green text-green hover:bg-textbox-green block h-72 w-72 rounded-lg border-2 bg-white p-4"
             >
@@ -283,12 +281,12 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                Descriptions Coming Soon!!
+              I establish relationships with organizations and organize events, workshops, and project teams to drive significant advancements in AI and ML for participating students.
               </div>
             </a>
 
             <a
-              href="https://www.qubitbyqubit.org/programs"
+              href="https://www.codecoogs.com/"
               target="_blank"
               className="border-green text-green hover:bg-textbox-green ml-20 block h-72 w-72 rounded-lg border-2 bg-white p-4"
             >
@@ -298,14 +296,14 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                Descriptions Coming Soon!!
+              I ensure significant member participation and placement in multiple teams in software engineering and development projects and professional competitions throughout the organization.
               </div>
             </a>
           </div>
 
           <div className="text-green mb-12 ml-20 mt-12 flex flex-row justify-start">
             <a
-              href="https://sail.cive.uh.edu/"
+              href="https://cougarcs.com//"
               target="_blank"
               className="border-green text-green hover:bg-textbox-green block h-72 w-72 rounded-lg border-2 bg-white p-4"
             >
@@ -318,12 +316,12 @@ export default function Experience() {
                 [February 2023 - Present]{" "}
               </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                Descriptions Coming Soon!!
+              I contributed to the development of a web-scraping bot for CyberNews, providing up-to-date cybersecurity news and training materials for certifications and exams.
               </div>
             </a>
 
             <a
-              href="https://www.qubitbyqubit.org/programs"
+              href="https://www.codecoogs.com/"
               target="_blank"
               className="border-green text-green hover:bg-textbox-green ml-20 block h-72 w-72 rounded-lg border-2 bg-white p-4"
             >
@@ -336,7 +334,7 @@ export default function Experience() {
                 [January 2023 - May 2023]{" "}
               </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                Descriptions Coming Soon!!
+              I organized coding competitions and networking events for Code[Coogs] members, and led two sub-organizations to increase participation within the community.
               </div>
             </a>
           </div>
