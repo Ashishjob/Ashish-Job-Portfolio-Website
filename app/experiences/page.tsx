@@ -26,7 +26,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [May 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I utilize Python, NerfStudio, and LERF to acquire and analyze data for Computer Vision and language modeling in order to detect faults in structures caused by natural disasters.
+              Analyzed data using Python, NerfStudio, and LERF to detect structural faults caused by natural disasters.
               </div>
             </a>
 
@@ -40,7 +40,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [May 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                I take part in events such as the IBM Quantum Explorers event as well as special events related to the quantum field featuring guest speakers and experts in industry and academia
+                Participated in IBM Quantum Explorers and other special events with industry and academic experts in the quantum field.
               </div>
             </a>
 
@@ -55,7 +55,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I am responsible for coordinating all logistical aspects of the event such as venue arrangements, accommodation, equipment procurement, and vendor/sponsor partnerships.
+              I coordinate event logistics, including venue arrangements, accommodation, equipment procurement, and vendor/sponsor partnerships.
               </div>
             </a>
 
@@ -70,7 +70,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I take part in all operational aspects of the biggest hackathon in Houston, ensuring a seamless experience for participants to focus on innovation and collaboration.
+              I manage the logistical aspects of Houston's biggest hackathon, enabling participants to focus on innovation and collaboration.
               </div>
             </a>
 
@@ -85,7 +85,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [March 2023 - May 2023] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I evaluated the institution&apos;s threat feed monitoring policies, identifying vulnerabilities to enhance cybersecurity, and I led a team promoting collaboration among all members.
+              I assessed threat feed monitoring policies, identified vulnerabilities, and enhanced cybersecurity through gap analyses.
               </div>
             </a>
           </div>
@@ -101,7 +101,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [March 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                I contributed to the Admin Portal and Revamp teams by assembling/reconfiguring the website&apos;s front end. Using Git source control, I committed changes, created branches, and merged them.
+              I contributed to the Admin Portal and Revamp teams by reconfiguring the website's front end using Git source control.
               </div>
             </a>
 
@@ -116,7 +116,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I establish relationships with organizations and organize events, workshops, and project teams to drive significant advancements in AI and ML for participating students.
+              I build relationships with organizations, organize events, workshops, and project teams to drive advancements in AI and ML for students.
               </div>
             </a>
 
@@ -131,7 +131,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I ensure significant member participation and placement in multiple teams in software engineering and development projects and professional competitions throughout the organization.
+              I ensure active member participation and placement in software engineering projects and competitions organization-wide.
               </div>
             </a>
 
@@ -149,7 +149,7 @@ export default function Experience() {
                 [February 2023 - Present]{" "}
               </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I contributed to the development of a web-scraping bot for CyberNews, providing up-to-date cybersecurity news and training materials for certifications and exams.
+              I developed a web-scraping bot for CyberNews, delivering current cybersecurity news and training materials for certifications/exams.
               </div>
             </a>
 
@@ -167,7 +167,7 @@ export default function Experience() {
                 [January 2023 - May 2023]{" "}
               </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I organized coding competitions and networking events for Code[Coogs] members, and led two sub-organizations to increase participation within the community.
+              I organized coding competitions, networking events, and led sub-organizations to boost community participation.
               </div>
             </a>
           </div>
@@ -186,7 +186,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [May 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                I utilize Python, NerfStudio, and LERF to acquire and analyze data for Computer Vision and language modeling in order to detect faults in structures caused by natural disasters.
+              Analyzed data using Python, NerfStudio, and LERF to detect structural faults caused by natural disasters.
               </div>
             </a>
 
@@ -200,7 +200,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [May 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I take part in events such as the IBM Quantum Explorers event as well as special events related to the quantum field featuring guest speakers and experts in industry and academia
+              Participated in IBM Quantum Explorers and other special events with industry and academic experts in the quantum field.
               </div>
             </a>
           </div>
@@ -217,7 +217,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I am responsible for coordinating all logistical aspects of the event such as venue arrangements, accommodation, equipment procurement, and vendor/sponsor partnerships.
+              I coordinate event logistics, including venue arrangements, accommodation, equipment procurement, and vendor/sponsor partnerships.
               </div>
             </a>
 
@@ -232,7 +232,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I take part in all operational aspects of the biggest hackathon in Houston, ensuring a seamless experience for participants to focus on innovation and collaboration.
+              I manage the logistical aspects of Houston's biggest hackathon, enabling participants to focus on innovation and collaboration.
               </div>
             </a>
           </div>
@@ -249,7 +249,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [March 2023 - May 2023] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I evaluated the institution&apos;s threat feed monitoring policies, identifying vulnerabilities to enhance cybersecurity, and I led a team promoting collaboration among all members.
+              I assessed threat feed monitoring policies, identified vulnerabilities, and enhanced cybersecurity through gap analyses.
               </div>
             </a>
 
@@ -264,7 +264,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [March 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I contributed to the Admin Portal and Revamp teams by assembling/reconfiguring the website&apos;s front end. Using Git source control, I committed changes, created branches, and merged them.
+              I contributed to the Admin Portal and Revamp teams by reconfiguring the website's front end using Git source control.
               </div>
             </a>
           </div>
@@ -281,7 +281,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I establish relationships with organizations and organize events, workshops, and project teams to drive significant advancements in AI and ML for participating students.
+              I build relationships with organizations, organize events, workshops, and project teams to drive advancements in AI and ML for students.
               </div>
             </a>
 
@@ -296,7 +296,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I ensure significant member participation and placement in multiple teams in software engineering and development projects and professional competitions throughout the organization.
+              I ensure active member participation and placement in software engineering projects and competitions organization-wide.
               </div>
             </a>
           </div>
@@ -316,7 +316,7 @@ export default function Experience() {
                 [February 2023 - Present]{" "}
               </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I contributed to the development of a web-scraping bot for CyberNews, providing up-to-date cybersecurity news and training materials for certifications and exams.
+              I developed a web-scraping bot for CyberNews, delivering current cybersecurity news and training materials for certifications/exams.
               </div>
             </a>
 
@@ -334,7 +334,7 @@ export default function Experience() {
                 [January 2023 - May 2023]{" "}
               </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I organized coding competitions and networking events for Code[Coogs] members, and led two sub-organizations to increase participation within the community.
+              I organized coding competitions, networking events, and led sub-organizations to boost community participation.
               </div>
             </a>
           </div>
