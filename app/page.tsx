@@ -116,7 +116,7 @@ export default function Home() {
               </div>
 
               <div className="pr-1 pt-3">
-                <a href="resume.pdf" target="_blank" title="My Resume">
+                <a href="Resume.pdf" target="_blank" title="My Resume">
                   <Image
                     className="hover:bg-green-hover rounded-xl"
                     src="/resume.png"
