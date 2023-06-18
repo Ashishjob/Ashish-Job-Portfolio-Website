@@ -70,7 +70,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I manage the logistical aspects of Houston's biggest hackathon, enabling participants to focus on innovation and collaboration.
+              I manage the logistical aspects of Houston&apos;s biggest hackathon, enabling participants to focus on innovation and collaboration.
               </div>
             </a>
 
@@ -101,7 +101,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [March 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I contributed to the Admin Portal and Revamp teams by reconfiguring the website's front end using Git source control.
+              I contributed to the Admin Portal and Revamp teams by reconfiguring the website&apos;s front end using Git source control.
               </div>
             </a>
 
@@ -232,7 +232,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I manage the logistical aspects of Houston's biggest hackathon, enabling participants to focus on innovation and collaboration.
+              I manage the logistical aspects of Houston&apos;s biggest hackathon, enabling participants to focus on innovation and collaboration.
               </div>
             </a>
           </div>
@@ -264,7 +264,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [March 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I contributed to the Admin Portal and Revamp teams by reconfiguring the website's front end using Git source control.
+              I contributed to the Admin Portal and Revamp teams by reconfiguring the website&apos;s front end using Git source control.
               </div>
             </a>
           </div>
