@@ -18,7 +18,7 @@ export default function Experience() {
             <a
               href="https://sail.cive.uh.edu/"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green block h-72 w-72 rounded-lg border-2 bg-offwhite p-4"
+              className="border-green text-green hover:bg-textbox-green block h-fit w-72 rounded-lg border-2 bg-offwhite p-4"
             >
               <h1 className="text-xl font-semibold">
                 Undergraduate Research <br />
@@ -33,7 +33,7 @@ export default function Experience() {
             <a
               href="https://www.qubitbyqubit.org/programs"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green mt-12 block h-72 w-72 rounded-lg border-2 bg-offwhite p-4 lg:ml-20 lg:mt-0"
+              className="border-green text-green hover:bg-textbox-green mt-12 block h-fit w-72 rounded-lg border-2 bg-offwhite p-4 lg:ml-20 lg:mt-0"
             >
               <h1 className="text-xl font-semibold">
                 UQN Member @ <br /> Qubit x Qubit
@@ -47,7 +47,7 @@ export default function Experience() {
             <a
               //href=""
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green mt-12 block h-72 w-72 rounded-lg border-2 bg-offwhite p-4 lg:ml-20 lg:mt-0"
+              className="border-green text-green hover:bg-textbox-green mt-12 block h-fit w-72 rounded-lg border-2 bg-offwhite p-4 lg:ml-20 lg:mt-0"
             >
               <h1 className="text-xl font-semibold">
                 Logistics Director @ <br />
@@ -62,7 +62,7 @@ export default function Experience() {
             <a
               href="https://uhcode.red/"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green mt-12 block h-72 w-72 rounded-lg border-2 bg-offwhite p-4 lg:ml-20 lg:mt-0"
+              className="border-green text-green hover:bg-textbox-green mt-12 block h-fit w-72 rounded-lg border-2 bg-offwhite p-4 lg:ml-20 lg:mt-0"
             >
               <h1 className="text-xl font-semibold">
                 Logistics Officer @ <br />
@@ -77,7 +77,7 @@ export default function Experience() {
             <a
               href="https://chrysallis.ai/"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green mt-12 block h-72 w-72 rounded-lg border-2 bg-offwhite p-4 lg:ml-20 lg:mt-0"
+              className="border-green text-green hover:bg-textbox-green mt-12 block h-fit w-72 rounded-lg border-2 bg-offwhite p-4 lg:ml-20 lg:mt-0"
             >
               <h1 className="text-xl font-semibold">
                 Cybersecurity Intern @ <br />
@@ -93,7 +93,7 @@ export default function Experience() {
             <a
               href="https://cougarcs.com/"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green block h-72 w-72 rounded-lg border-2 bg-offwhite p-4"
+              className="border-green text-green hover:bg-textbox-green block h-fit w-72 rounded-lg border-2 bg-offwhite p-4"
             >
               <h1 className="text-xl font-semibold">
                 Web Developer @ <br />
@@ -108,7 +108,7 @@ export default function Experience() {
             <a
               //href=""
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green mt-12 block h-72 w-72 rounded-lg border-2 bg-offwhite p-4 lg:ml-20 lg:mt-0"
+              className="border-green text-green hover:bg-textbox-green mt-12 block h-fit w-72 rounded-lg border-2 bg-offwhite p-4 lg:ml-20 lg:mt-0"
             >
               <h1 className="text-xl font-semibold">
                 Relations Officer @ <br />
@@ -123,7 +123,7 @@ export default function Experience() {
             <a
               href="https://www.codecoogs.com/"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green mt-12 block h-72 w-72 rounded-lg border-2 bg-offwhite p-4 lg:ml-20 lg:mt-0"
+              className="border-green text-green hover:bg-textbox-green mt-12 block h-fit w-72 rounded-lg border-2 bg-offwhite p-4 lg:ml-20 lg:mt-0"
             >
               <h1 className="text-xl font-semibold">
                 Teams Director @ <br />
@@ -138,7 +138,7 @@ export default function Experience() {
             <a
               href="https://cougarcs.com//"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green mt-12 block h-72 w-72 rounded-lg border-2 bg-offwhite p-4 lg:ml-20 lg:mt-0"
+              className="border-green text-green hover:bg-textbox-green mt-12 block h-fit w-72 rounded-lg border-2 bg-offwhite p-4 lg:ml-20 lg:mt-0"
             >
               <h1 className="text-xl font-semibold">
                 &quot;Hacker&quot; @ CougarCS
@@ -156,7 +156,7 @@ export default function Experience() {
             <a
               href="https://www.codecoogs.com/"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green mb-12 mt-12 block h-72 w-72 rounded-lg border-2 bg-offwhite p-4 lg:mb-0 lg:ml-20 lg:mt-0"
+              className="border-green text-green hover:bg-textbox-green mb-12 mt-12 block h-fit w-72 rounded-lg border-2 bg-offwhite p-4 lg:mb-0 lg:ml-20 lg:mt-0"
             >
               <h1 className="text-xl font-semibold">
                 Executive Intern @ <br />
@@ -178,7 +178,7 @@ export default function Experience() {
             <a
               href="https://sail.cive.uh.edu/"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green block h-72 w-72 rounded-lg border-2 bg-offwhite p-4"
+              className="border-green text-green hover:bg-textbox-green block h-fit w-72 rounded-lg border-2 bg-offwhite p-4"
             >
               <h1 className="text-xl font-semibold">
                 Undergraduate Research <br />
@@ -193,7 +193,7 @@ export default function Experience() {
             <a
               href="https://www.qubitbyqubit.org/programs"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green ml-20 block h-72 w-72 rounded-lg border-2 bg-offwhite p-4"
+              className="border-green text-green hover:bg-textbox-green ml-20 block h-fit w-72 rounded-lg border-2 bg-offwhite p-4"
             >
               <h1 className="text-xl font-semibold">
                 UQN Member @ <br /> Qubit x Qubit
@@ -209,7 +209,7 @@ export default function Experience() {
             <a
             //   href=""
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green block h-72 w-72 rounded-lg border-2 bg-offwhite p-4"
+              className="border-green text-green hover:bg-textbox-green block h-fit w-72 rounded-lg border-2 bg-offwhite p-4"
             >
               <h1 className="text-xl font-semibold">
                 Logistics Director @ <br />
@@ -224,7 +224,7 @@ export default function Experience() {
             <a
               href="https://uhcode.red/"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green ml-20 block h-72 w-72 rounded-lg border-2 bg-offwhite p-4"
+              className="border-green text-green hover:bg-textbox-green ml-20 block h-fit w-72 rounded-lg border-2 bg-offwhite p-4"
             >
               <h1 className="text-xl font-semibold">
                 Logistics Officer @ <br />
@@ -241,7 +241,7 @@ export default function Experience() {
             <a
               href="https://chrysallis.ai/"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green block h-72 w-72 rounded-lg border-2 bg-offwhite p-4"
+              className="border-green text-green hover:bg-textbox-green block h-fit w-72 rounded-lg border-2 bg-offwhite p-4"
             >
               <h1 className="text-xl font-semibold">
                 Cybersecurity Intern @ <br />
@@ -256,7 +256,7 @@ export default function Experience() {
             <a
               href="https://cougarcs.com/"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green ml-20 block h-72 w-72 rounded-lg border-2 bg-offwhite p-4"
+              className="border-green text-green hover:bg-textbox-green ml-20 block h-fit w-72 rounded-lg border-2 bg-offwhite p-4"
             >
               <h1 className="text-xl font-semibold">
                 Web Developer @ <br />
@@ -273,7 +273,7 @@ export default function Experience() {
             <a
             //   href=""
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green block h-72 w-72 rounded-lg border-2 bg-offwhite p-4"
+              className="border-green text-green hover:bg-textbox-green block h-fit w-72 rounded-lg border-2 bg-offwhite p-4"
             >
               <h1 className="text-xl font-semibold">
                 Relations Officer @ <br />
@@ -288,7 +288,7 @@ export default function Experience() {
             <a
               href="https://www.codecoogs.com/"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green ml-20 block h-72 w-72 rounded-lg border-2 bg-offwhite p-4"
+              className="border-green text-green hover:bg-textbox-green ml-20 block h-fit w-72 rounded-lg border-2 bg-offwhite p-4"
             >
               <h1 className="text-xl font-semibold">
                 Teams Director @ <br />
@@ -305,7 +305,7 @@ export default function Experience() {
             <a
               href="https://cougarcs.com//"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green block h-72 w-72 rounded-lg border-2 bg-offwhite p-4"
+              className="border-green text-green hover:bg-textbox-green block h-fit w-72 rounded-lg border-2 bg-offwhite p-4"
             >
               <h1 className="text-xl font-semibold">
                 &quot;Hacker&quot; @ CougarCS
@@ -323,7 +323,7 @@ export default function Experience() {
             <a
               href="https://www.codecoogs.com/"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green ml-20 block h-72 w-72 rounded-lg border-2 bg-offwhite p-4"
+              className="border-green text-green hover:bg-textbox-green ml-20 block h-fit w-72 rounded-lg border-2 bg-offwhite p-4"
             >
               <h1 className="text-xl font-semibold">
                 Executive Intern @ <br />
