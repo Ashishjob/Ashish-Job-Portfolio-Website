@@ -28,8 +28,7 @@ export default function Project() {
                 Portfolio Website
               </h1>
               <h2 className="text-center">
-                Responsive website built using Next.js, TailwindCSS, and
-                TypeScript.
+                Responsive website built to showcase work and experience.
               </h2>     
               <div className="flex flex-row">
               <Image
@@ -272,8 +271,7 @@ export default function Project() {
                 Portfolio Website
               </h1>
               <h2 className="text-center text-lg">
-                Responsive website built using Next.js, TailwindCSS, and
-                TypeScript.
+                Responsive website built to showcase work and experience.
               </h2>
               <div className="flex flex-row">
               <Image

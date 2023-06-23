@@ -71,7 +71,7 @@ function Contact() {
       <div className='flex flex-row justify-center'>
         <div className="relative md:w-1/6 w-24">
           <button
-            className="resize-y bg-textbox-green border-1 border-green text-green text-sm rounded-lg block w-full p-4 font-semibold hover:bg-green-button"
+            className="resize-y bg-full-white border-1 border-green text-green text-sm rounded-lg block w-full p-4 font-semibold hover:bg-textbox-green"
             onClick={handleSubmit}
             disabled={isLoading}
           >

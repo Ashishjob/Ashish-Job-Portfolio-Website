@@ -15,6 +15,7 @@ module.exports = {
       'green-button': '#A9BC95',
       'textbox-green': '#bed3a8',
       'offwhite': '#E2E2B8',
+      'full-white': '#ffffff',
     },
     extend: {
       backgroundImage: {
