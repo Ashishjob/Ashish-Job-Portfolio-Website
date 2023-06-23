@@ -8,13 +8,13 @@ module.exports = {
   theme: {
     colors: {
       'lightgreen': '#cde2b8',
-      'white': '#ffffff',
+      'white': '#B4D394',
       'black': '#000000',
       'green': '#0f3d24',
       'green-hover': '#bed3a8',
       'green-button': '#A9BC95',
-      'textbox-green': '#ECF8E1',
-      'offwhite': '#F8FEF2',
+      'textbox-green': '#bed3a8',
+      'offwhite': '#E2E2B8',
     },
     extend: {
       backgroundImage: {

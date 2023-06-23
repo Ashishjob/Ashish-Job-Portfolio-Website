@@ -9,19 +9,19 @@ export default function Project() {
 
       <div className="Heading">
         <div
-          className="text-green mt-12 flex flex-row justify-center text-4xl font-semibold underline lg:ml-24
-         lg:mt-8 lg:justify-start"
+          className="text-green mt-12 flex flex-row justify-center text-4xl font-semibold underline"
         >
           <h1 className="">Projects</h1>
         </div>
       </div>
 
       <div className="mt-12 flex flex-col justify-center md:hidden lg:block">
-        <div className="text-green mt-0 flex flex-col items-center justify-between md:ml-20 md:mr-20 md:flex-row lg:mt-4 lg:items-start">
+        
+        <div className="text-green mt-0 flex flex-col items-center justify-evenly md:flex-row lg:mt-4 lg:items-start">
           <a
             href="https://github.com/Ashishjob/Ashishjob.github.io"
             target="_blank"
-            className="border-green text-green hover:bg-textbox-green bg-offwhite mb-12 h-72 w-72 rounded-full border-2 p-4 md:mb-0 md:ml-0 md:h-80 md:w-80"
+            className="border-green text-green hover:bg-textbox-green bg-offwhite shadow-xl mb-12 h-72 w-72 rounded-3xl border-2 p-4 md:mb-0 md:ml-0 md:h-80 md:w-80"
           >
             <span className="flex h-full flex-col items-center justify-center">
               <h1 className="justify-start text-2xl font-semibold hover:underline">
@@ -37,7 +37,7 @@ export default function Project() {
           <a
             href="https://github.com/Ashishjob/CougarCS-AdminPortal"
             target="_blank"
-            className="border-green text-green hover:bg-textbox-green bg-offwhite mb-12 h-72 w-72 rounded-full border-2 p-4 md:mb-0 md:ml-0 md:h-80 md:w-80"
+            className="border-green text-green hover:bg-textbox-green bg-offwhite shadow-xl mb-12 h-72 w-72 rounded-3xl border-2 p-4 md:mb-0 md:ml-0 md:h-80 md:w-80"
           >
             <span className="flex h-full flex-col items-center justify-center">
               <h1 className="justify-start text-center text-2xl font-semibold hover:underline">
@@ -53,7 +53,7 @@ export default function Project() {
           <a
             href="https://github.com/Ashishjob/Pokemon-Tamagotchi-1437"
             target="_blank"
-            className="border-green text-green hover:bg-textbox-green bg-offwhite h-72 w-72 rounded-full border-2 p-4 md:mb-0 md:ml-0 md:h-80 md:w-80"
+            className="border-green text-green hover:bg-textbox-green bg-offwhite shadow-xl h-72 w-72 rounded-3xl border-2 p-4 md:mb-0 md:ml-0 md:h-80 md:w-80"
           >
             <span className="flex h-full flex-col items-center justify-center">
               <h1 className="justify-start text-2xl font-semibold hover:underline">
@@ -66,11 +66,11 @@ export default function Project() {
           </a>
         </div>
 
-        <div className="text-green mt-12 flex flex-col items-center justify-between lg:flex-row lg:justify-evenly">
+        <div className="text-green flex flex-col items-center justify-evenly md:flex-row lg:mt-12 lg:items-start mt-12">
           <a
             href="https://github.com/Ashishjob/MalayalamMNIST"
             target="_blank"
-            className="border-green text-green hover:bg-textbox-green bg-offwhite mb-12 h-72 w-72 rounded-full border-2 p-4 md:mb-0 md:ml-0 md:h-80 md:w-80"
+            className="border-green text-green hover:bg-textbox-green bg-offwhite shadow-xl mb-12 h-72 w-72 rounded-3xl border-2 p-4 md:mb-0 md:ml-0 md:h-80 md:w-80"
           >
             <span className="flex h-full flex-col items-center justify-center">
               <h1 className="justify-start text-2xl font-semibold hover:underline">
@@ -86,7 +86,7 @@ export default function Project() {
           <a
             href="https://github.com/Ashishjob/Scheduling-Bot"
             target="_blank"
-            className="border-green text-green hover:bg-textbox-green bg-offwhite mb-12 h-72 w-72 rounded-full border-2 p-4 md:mb-0 md:ml-0 md:h-80 md:w-80"
+            className="border-green text-green hover:bg-textbox-green bg-offwhite shadow-xl mb-12 h-72 w-72 rounded-3xl border-2 p-4 md:mb-0 md:ml-0 md:h-80 md:w-80"
           >
             <span className="flex h-full flex-col items-center justify-center">
               <h1 className="justify-start text-2xl font-semibold hover:underline">
@@ -99,15 +99,35 @@ export default function Project() {
               <h6 className="font-semibold"> [In Progress]</h6>
             </span>
           </a>
+
+          <a
+            href="https://github.com/THENEWWKIDD/CyberNews_Disc"
+            target="_blank"
+            className="border-green text-green hover:bg-textbox-green bg-offwhite shadow-xl mb-12 h-72 w-72 rounded-3xl border-2 p-4 md:mb-0 md:ml-0 md:h-80 md:w-80"
+          >
+            <span className="flex h-full flex-col items-center justify-center">
+              <h1 className="justify-start text-2xl font-semibold hover:underline">
+                CyberNews Bot
+              </h1>
+              <h2 className="text-center">
+                Webscraping bot that finds Cyber-Security news and gives cert Training
+              </h2>
+              <h6 className="font-semibold"> [In Progress]</h6>
+            </span>
+          </a>
+
+
         </div>
       </div>
+
+      {/* Mobile */}
 
       <div className="mt-12 hidden flex-col items-center justify-center md:block lg:hidden">
         <div className="text-green flex flex-col items-center justify-center">
           <a
             href="https://github.com/Ashishjob/Ashishjob.github.io"
             target="_blank"
-            className="border-green text-green hover:bg-textbox-green bg-offwhite mb-12 h-96 w-96 rounded-full border-2 p-4"
+            className="border-green text-green hover:bg-textbox-green bg-offwhite shadow-xl mb-12 h-96 w-96 rounded-3xl border-2 p-4"
           >
             <span className="flex h-full flex-col items-center justify-center">
               <h1 className="justify-start text-3xl font-semibold hover:underline">
@@ -123,7 +143,7 @@ export default function Project() {
           <a
             href="https://github.com/Ashishjob/Ashishjob.github.io"
             target="_blank"
-            className="border-green text-green hover:bg-textbox-green bg-offwhite mb-12 h-96 w-96 rounded-full border-2 p-4"
+            className="border-green text-green hover:bg-textbox-green bg-offwhite shadow-xl mb-12 h-96 w-96 rounded-3xl border-2 p-4"
           >
             <span className="flex h-full flex-col items-center justify-center">
               <h1 className="justify-start text-3xl font-semibold hover:underline">
@@ -138,7 +158,7 @@ export default function Project() {
           <a
             href="https://github.com/Ashishjob/Ashishjob.github.io"
             target="_blank"
-            className="border-green text-green hover:bg-textbox-green bg-offwhite mb-12 h-96 w-96 rounded-full border-2 p-4"
+            className="border-green text-green hover:bg-textbox-green bg-offwhite shadow-xl mb-12 h-96 w-96 rounded-3xl border-2 p-4"
           >
             <span className="flex h-full flex-col items-center justify-center">
               <h1 className="justify-start text-3xl font-semibold hover:underline">
@@ -153,7 +173,7 @@ export default function Project() {
           <a
             href="https://github.com/Ashishjob/Ashishjob.github.io"
             target="_blank"
-            className="border-green text-green hover:bg-textbox-green bg-offwhite mb-12 h-96 w-96 rounded-full border-2 p-4"
+            className="border-green text-green hover:bg-textbox-green bg-offwhite shadow-xl mb-12 h-96 w-96 rounded-3xl border-2 p-4"
           >
             <span className="flex h-full flex-col items-center justify-center">
               <h1 className="justify-start text-3xl font-semibold hover:underline">
@@ -169,7 +189,7 @@ export default function Project() {
           <a
             href="https://github.com/Ashishjob/Ashishjob.github.io"
             target="_blank"
-            className="border-green text-green hover:bg-textbox-green bg-offwhite mb-12 h-96 w-96 rounded-full border-2 p-4"
+            className="border-green text-green hover:bg-textbox-green bg-offwhite shadow-xl mb-12 h-96 w-96 rounded-3xl border-2 p-4"
           >
             <span className="flex h-full flex-col items-center justify-center">
               <h1 className="justify-start text-3xl font-semibold hover:underline">
@@ -182,7 +202,25 @@ export default function Project() {
               <h6 className="font-semibold"> [In Progress]</h6>
             </span>
           </a>
-        </div>
+
+          <a
+            href="https://github.com/THENEWWKIDD/CyberNews_Disc"
+            target="_blank"
+            className="border-green text-green hover:bg-textbox-green bg-offwhite shadow-xl mb-12 h-96 w-96 rounded-3xl border-2 p-4"
+          >
+            <span className="flex h-full flex-col items-center justify-center">
+              <h1 className="justify-start text-3xl font-semibold hover:underline">
+                CyberNews Bot
+              </h1>
+              <h2 className="text-center text-lg">
+                Webscraping bot that finds Cyber-Security news and gives cert Training
+              </h2>
+              <h6 className="font-semibold"> [In Progress]</h6>
+            </span>
+          </a>
+
+
+        </div> 
       </div>
     </main>
   );

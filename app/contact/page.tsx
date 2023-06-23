@@ -38,7 +38,7 @@ function Contact() {
       <div className='flex flex-row justify-center mb-6'>
         <div className={`relative md:w-1/3 w-56 ${name ? 'border-green' : ''}`}>
           <input
-            className="bg-white border-1 border-green text-green text-sm rounded-lg block w-full p-4"
+            className="border-1 border-green text-green text-sm rounded-lg block w-full p-4"
             placeholder="Name"
             value={name}
             onChange={(e) => setName(e.target.value)}
@@ -49,7 +49,7 @@ function Contact() {
       <div className='flex flex-row justify-center mb-6'>
         <div className={`relative md:w-1/3 w-56 ${email ? 'border-green' : ''}`}>
           <input
-            className="bg-white border-1 border-green text-green text-sm rounded-lg block w-full p-4"
+            className="border-1 border-green text-green text-sm rounded-lg block w-full p-4"
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -60,7 +60,7 @@ function Contact() {
       <div className='flex flex-row justify-center mb-6'>
         <div className={`relative md:w-1/3 w-56 ${message ? 'border-green' : ''}`}>
           <textarea
-            className="resize-y bg-white border-1 border-green text-green text-sm rounded-lg block w-full p-4"
+            className="resize-y border-1 border-green text-green text-sm rounded-lg block w-full p-4"
             placeholder="Message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
@@ -71,7 +71,7 @@ function Contact() {
       <div className='flex flex-row justify-center'>
         <div className="relative md:w-1/6 w-24">
           <button
-            className="resize-y bg-white border-1 border-green text-green text-sm rounded-lg block w-full p-4 font-semibold hover:bg-textbox-green"
+            className="resize-y bg-textbox-green border-1 border-green text-green text-sm rounded-lg block w-full p-4 font-semibold hover:bg-green-button"
             onClick={handleSubmit}
             disabled={isLoading}
           >

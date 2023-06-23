@@ -7,22 +7,21 @@ export default function Home() {
     <main className="min-w-screen bg-lightgreen flex min-h-screen flex-col">
       <NormalNavbar />
 
-      <div className="Heading">
+      <div className="">
         <div
           className="text-green mt-16 flex flex-row justify-center text-4xl font-semibold 
-         md:mt-36 lg:ml-24 lg:mt-56 lg:justify-between"
+         md:mt-36 lg:ml-24 lg:mt-56 lg:justify-start"
         >
           <h1 className="hover:underline">ASHISH - K - JOB</h1>
-          <h1 className="hidden lg:block mr-24"> Some Technologies I like to Use:</h1>
         </div>
         <div className="text-green mt-2 flex items-center justify-center text-center font-semibold lg:ml-24 lg:justify-start">
           <h1 className="sm:text-xs md:text-xl lg:text-lg">
             | CS + Math Student @ UH |
           </h1>
         </div>
-      </div>
+      
 
-      <div className="text-green mt-6 min-w-screen w-full flex-row md:mt-12 md:flex">
+      <div className="text-green min-w-screen mt-6 w-full flex-row md:mt-12 md:flex">
         <div className="ml-36 hidden justify-start lg:block">
           {" "}
           {/*Large Screen Border Next to About Us*/}
@@ -128,246 +127,17 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="text-center text-green mt-12 md:mr-12 flex flex-col items-center justify-center text-2xl font-semibold md:text-3xl lg:hidden">
-              Some Technologies <br /> I Like to Use:
-            </div>
-            <div className="justify-center items-center md:mr-12">
-            <div className="mt-12 flex flex-row justify-evenly lg:hidden ">
-              <Image
-                className=""
-                src="/python.svg"
-                alt="Python"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/js.svg"
-                alt="JavaScript"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/ts.svg"
-                alt="TypeScript"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/html.svg"
-                alt="HTML"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/css.svg"
-                alt="CSS"
-                width={50}
-                height={50}
-              />
-              </div>
-              <div className="mt-6 flex flex-row justify-evenly lg:hidden">
-              <Image
-                className=""
-                src="/cpp.svg"
-                alt="C++"
-                width={50}
-                height={50}
-              />
-              
-              <Image
-                className=""
-                src="/r.svg"
-                alt="R"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/java.svg"
-                alt="Java"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/postgresql.svg"
-                alt="PostgreSQL"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/docker.svg"
-                alt="Docker"
-                width={50}
-                height={50}
-              />
-              </div>
-              <div className="mt-6 flex flex-row justify-evenly lg:hidden mb-12">
-              <Image
-                className=""
-                src="/git.svg"
-                alt="Git"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/figma.svg"
-                alt="Figma"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/linux.svg"
-                alt="Linux"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/react.svg"
-                alt="React.js"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/node.svg"
-                alt="Node.js"
-                width={50}
-                height={50}
-              />
-            </div>
           </div>
-        </div>
-        </div>
 
-        <div className="hidden lg:block lg:justify-end ml-auto mr-40"> 
-        <div className="text-green flex flex-col items-center justify-center text-2xl font-bold md:text-3xl">
-              ---------------------------------
+            <Image
+              className="hidden lg:block ml-96 translate-x-56"
+              src="/bonsai.svg"
+              alt="Bonsai"
+              width={450}
+              height={450}
+            />
           </div>
-            <div className="mt-4 flex flex-row justify-evenly">
-              <Image
-                className=""
-                src="/python.svg"
-                alt="Python"
-                width={50}
-                height={50}
-              />
-             
-              <Image
-                className=""
-                src="/js.svg"
-                alt="JavaScript"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/ts.svg"
-                alt="TypeScript"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/html.svg"
-                alt="HTML"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/css.svg"
-                alt="CSS"
-                width={50}
-                height={50}
-              />
-              </div>
-              <div className="mt-12 flex flex-row justify-evenly ">
-              <Image
-                className=""
-                src="/cpp.svg"
-                alt="C++"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/r.svg"
-                alt="R"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/java.svg"
-                alt="Java"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/postgresql.svg"
-                alt="PostgreSQL"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/docker.svg"
-                alt="Docker"
-                width={50}
-                height={50}
-              />
-              </div>
-              <div className="mt-12 flex flex-row justify-evenly ">
-              <Image
-                className=""
-                src="/git.svg"
-                alt="Git"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/figma.svg"
-                alt="Figma"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/linux.svg"
-                alt="Linux"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/react.svg"
-                alt="React.js"
-                width={50}
-                height={50}
-              />
-              <Image
-                className=""
-                src="/node.svg"
-                alt="Node.js"
-                width={50}
-                height={50}
-              />
-            </div>
-            <div className="mt-6 text-green flex flex-col items-center justify-center text-2xl font-bold md:text-3xl">
-              ---------------------------------
-          </div>
-            </div>
+        </div>
       </div>
     </main>
   );
