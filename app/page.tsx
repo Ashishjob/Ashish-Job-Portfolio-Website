@@ -7,7 +7,7 @@ export default function Home() {
     <main className="min-w-screen bg-lightgreen flex min-h-screen flex-col">
       <NormalNavbar />
 
-      <div className="">
+      <div className="lg:ml-24">
         <div
           className="text-green mt-16 flex flex-row justify-center text-4xl font-semibold 
          md:mt-36 lg:ml-24 lg:mt-56 lg:justify-start"
@@ -130,7 +130,7 @@ export default function Home() {
           </div>
 
             <Image
-              className="hidden lg:block ml-96 translate-x-56"
+              className="hidden lg:block ml-96"
               src="/bonsai.svg"
               alt="Bonsai"
               width={450}
