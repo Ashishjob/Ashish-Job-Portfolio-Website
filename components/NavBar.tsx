@@ -13,7 +13,7 @@ const NormalNavbar = () => {
 
   return (
     <nav>
-      <div className="bg-green-hover flex flex-wrap items-center justify-between p-4 md:justify-center lg:w-full">
+      <div className="bg-green-hover flex flex-wrap items-center justify-between p-4 md:justify-center lg:w-full shadow-lg">
         <Image
           src="/icon.svg"
           width="50"
