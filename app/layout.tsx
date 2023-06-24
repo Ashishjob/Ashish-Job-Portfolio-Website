@@ -7,7 +7,7 @@ export const metadata = {
   title: "Ashish Job",
   description: "Portfolio Website",
   openGraph: {
-    image: './opengraph-image.png'
+    images: './lizardMetadata.png'
   }
 };
 
