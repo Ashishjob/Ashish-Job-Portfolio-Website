@@ -15,7 +15,7 @@ export default function Project() {
         </div>
       </div>
 
-      <div className="mt-12 flex flex-col justify-center md:hidden lg:block">
+      <div className="mt-12 flex flex-col justify-center md:hidden lg:block lg:mb-12">
         
         <div className="text-green mt-0 flex flex-col items-center justify-evenly md:flex-row lg:mt-4 lg:items-start">
           <a

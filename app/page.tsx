@@ -10,7 +10,7 @@ export default function Home() {
       <div className="lg:ml-24">
         <div
           className="text-green mt-16 flex flex-row justify-center text-4xl font-semibold 
-         md:mt-36 lg:ml-24 lg:mt-56 lg:justify-start"
+         md:mt-36 lg:ml-24 lg:mt-48 lg:justify-start"
         >
           <h1 className="hover:underline">ASHISH - K - JOB</h1>
         </div>
