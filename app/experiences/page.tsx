@@ -13,15 +13,15 @@ export default function Experience() {
           <h1 className="">Experiences</h1>
         </div>
 
-        <div className="md:hidden lg:block lg:mr-12 lg:mb-12">
-          <div className="text-green mt-12 flex flex-col items-center justify-start lg:ml-20 lg:flex-row lg:items-start">
+        <div className="md:hidden lg:block mx-16 lg:mb-12">
+          <div className="text-green mt-12 flex flex-col items-center justify-start lg:flex-row lg:items-start">
             <a
               href="https://sail.cive.uh.edu/"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green block h-96 w-72 rounded-lg border-2 bg-offwhite shadow-xl p-4"
+              className="border-green text-green hover:bg-textbox-green block rounded-lg border-2 bg-offwhite shadow-xl p-4"
             >
               <h1 className="text-xl font-semibold">
-                Undergraduate Research <br />
+                Undergraduate Research
                 Assistant @ SAIL Lab
               </h1>
               <h6 className="mt-2 font-semibold"> [May 2023 - Present] </h6>
@@ -33,10 +33,10 @@ export default function Experience() {
             <a
               href="https://www.qubitbyqubit.org/programs"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green mt-12 block h-96 w-72 rounded-lg border-2 shadow-xl bg-offwhite p-4 lg:ml-20 lg:mt-0"
+              className="border-green text-green hover:bg-textbox-green mt-12 block rounded-lg border-2 shadow-xl bg-offwhite p-4 lg:ml-20 lg:mt-0"
             >
-              <h1 className="text-xl font-semibold">
-                UQN Member @ <br /> Qubit x Qubit
+              <h1 className="text-xl font-semibold mb-8">
+                UQN Member @ Qubit x Qubit
               </h1>
               <h6 className="mt-2 font-semibold"> [May 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
@@ -47,10 +47,10 @@ export default function Experience() {
             <a
               //href=""
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green mt-12 block h-96 w-72 rounded-lg border-2 shadow-xl bg-offwhite p-4 lg:ml-20 lg:mt-0"
+              className="border-green text-green hover:bg-textbox-green mt-12 block rounded-lg border-2 shadow-xl bg-offwhite p-4 lg:ml-20 lg:mt-0"
             >
               <h1 className="text-xl font-semibold">
-                Logistics Director @ <br />
+                Logistics Director @
                 DataCON
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
@@ -62,10 +62,10 @@ export default function Experience() {
             <a
               href="https://uhcode.red/"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green mt-12 block h-96 w-72 rounded-lg border-2 shadow-xl bg-offwhite p-4 lg:ml-20 lg:mt-0"
+              className="border-green text-green hover:bg-textbox-green mt-12 block rounded-lg border-2 shadow-xl bg-offwhite p-4 lg:ml-20 lg:mt-0"
             >
-              <h1 className="text-xl font-semibold">
-                Logistics Officer @ <br />
+              <h1 className="text-xl font-semibold mb-8">
+                Logistics Officer @
                 CodeRED
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
@@ -77,10 +77,10 @@ export default function Experience() {
             <a
               href="https://chrysallis.ai/"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green mt-12 block h-96 w-72 rounded-lg border-2 shadow-xl bg-offwhite p-4 lg:ml-20 lg:mt-0"
+              className="border-green text-green hover:bg-textbox-green mt-12 block rounded-lg border-2 shadow-xl bg-offwhite p-4 lg:ml-20 lg:mt-0"
             >
               <h1 className="text-xl font-semibold">
-                Cybersecurity Intern @ <br />
+                Cybersecurity Intern @ 
                 Chrysallis.AI
               </h1>
               <h6 className="mt-2 font-semibold"> [March 2023 - May 2023] </h6>
@@ -89,29 +89,29 @@ export default function Experience() {
               </div>
             </a>
           </div>
-          <div className="text-green mt-12 flex flex-col items-center justify-start lg:ml-20 lg:flex-row lg:items-start">
+          <div className="text-green mt-12 flex flex-col items-center justify-start lg:flex-row lg:items-start">
             <a
               href="https://cougarcs.com/"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green block h-96 w-72 rounded-lg border-2 shadow-xl bg-offwhite p-4"
+              className="border-green text-green hover:bg-textbox-green block rounded-lg border-2 shadow-xl bg-offwhite p-4"
             >
               <h1 className="text-xl font-semibold">
-                Web Developer @ <br />
+                Web Developer @
                 CougarCS Web Dev
               </h1>
               <h6 className="mt-2 font-semibold"> [March 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-                I contributed to the Admin Portal and Revamp teams by assembling/reconfiguring the website&apos;s front end. Using Git source control, I committed changes, created branches, and merged them.
+                I contributed to the Admin <br /> Portal and Revamp teams by assembling and reconfiguring the website&apos;s front end. Using Git source control, I committed changes, created branches, and merged them.
               </div>
             </a>
 
             <a
               //href=""
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green mt-12 block h-96 w-72 rounded-lg shadow-xl border-2 bg-offwhite p-4 lg:ml-20 lg:mt-0"
+              className="border-green text-green hover:bg-textbox-green mt-12 block rounded-lg shadow-xl border-2 bg-offwhite p-4 lg:ml-20 lg:mt-0"
             >
               <h1 className="text-xl font-semibold">
-                Relations Officer @ <br />
+                Relations Officer @
                 CougarAI
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
@@ -123,10 +123,10 @@ export default function Experience() {
             <a
               href="https://www.codecoogs.com/"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green mt-12 block h-96 w-72 rounded-lg shadow-xl border-2 bg-offwhite p-4 lg:ml-20 lg:mt-0"
+              className="border-green text-green hover:bg-textbox-green mt-12 block rounded-lg shadow-xl border-2 bg-offwhite p-4 lg:ml-20 lg:mt-0"
             >
               <h1 className="text-xl font-semibold">
-                Teams Director @ <br />
+                Teams Director @
                 Code[Coogs]
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
@@ -138,11 +138,11 @@ export default function Experience() {
             <a
               href="https://cougarcs.com//"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green mt-12 block h-96 w-72 rounded-lg shadow-xl border-2 bg-offwhite p-4 lg:ml-20 lg:mt-0"
+              className="border-green text-green hover:bg-textbox-green mt-12 block rounded-lg shadow-xl border-2 bg-offwhite p-4 lg:ml-20 lg:mt-0"
             >
               <h1 className="text-xl font-semibold">
                 &quot;Hacker&quot; @ CougarCS
-                <br /> InfoSec Team
+                InfoSec Team
               </h1>
               <h6 className="mt-2 font-semibold">
                 {" "}
@@ -156,10 +156,10 @@ export default function Experience() {
             <a
               href="https://www.codecoogs.com/"
               target="_blank"
-              className="border-green text-green hover:bg-textbox-green mb-12 mt-12 block h-96 w-72 shadow-xl rounded-lg border-2 bg-offwhite p-4 lg:mb-0 lg:ml-20 lg:mt-0"
+              className="border-green text-green hover:bg-textbox-green mb-12 mt-12 block shadow-xl rounded-lg border-2 bg-offwhite p-4 lg:mb-0 lg:ml-20 lg:mt-0"
             >
               <h1 className="text-xl font-semibold">
-                Executive Intern @ <br />
+                Executive Intern @
                 Code[Coogs]
               </h1>
               <h6 className="mt-2 font-semibold">
