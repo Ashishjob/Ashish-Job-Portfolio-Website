@@ -35,7 +35,7 @@ export default function Experience() {
               target="_blank"
               className="border-green text-green hover:bg-textbox-green mt-12 block rounded-lg border-2 shadow-xl bg-offwhite p-4 lg:ml-20 lg:mt-0"
             >
-              <h1 className="text-xl font-semibold mb-8">
+              <h1 className="text-xl font-semibold">
                 UQN Member @ Qubit x Qubit
               </h1>
               <h6 className="mt-2 font-semibold"> [May 2023 - Present] </h6>
@@ -64,7 +64,7 @@ export default function Experience() {
               target="_blank"
               className="border-green text-green hover:bg-textbox-green mt-12 block rounded-lg border-2 shadow-xl bg-offwhite p-4 lg:ml-20 lg:mt-0"
             >
-              <h1 className="text-xl font-semibold mb-8">
+              <h1 className="text-xl font-semibold">
                 Logistics Officer @
                 CodeRED
               </h1>
