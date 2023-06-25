@@ -116,7 +116,7 @@ export default function Experience() {
               </h1>
               <h6 className="mt-2 font-semibold"> [April 2023 - Present] </h6>
               <div className="font-sm mt-2 flex flex-row text-base lg:ml-4">
-              I establish relationships with organizations and organize events, workshops, and project teams to drive significant advancements in AI and ML for participating students.
+              I establish relationships with other organizations and organize events, workshops, and project teams to drive significant advancements in AI and ML for participating students.
               </div>
             </a>
 
