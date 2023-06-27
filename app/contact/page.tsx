@@ -10,7 +10,7 @@ function Contact() {
   const [isLoading, setIsLoading] = useState(false);
   const [isSent, setIsSent] = useState(false);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: { preventDefault: () => void; }) => {
     e.preventDefault();
     setIsLoading(true);
 
@@ -110,7 +110,7 @@ function Contact() {
             </button>
           </div>
           {isSent && (
-            <p className="text-green mt-2 text-center">Message Sent!</p>
+            <p className="text-green mt-2 text-center font-semibold">Message Sent!</p>
           )}
         </form>
       </div>
