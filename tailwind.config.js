@@ -16,6 +16,7 @@ module.exports = {
       'textbox-green': '#bed3a8',
       'offwhite': '#E2E2B8',
       'full-white': '#ffffff',
+      'clear-white': '#ffffff',
     },
     extend: {
       backgroundImage: {
