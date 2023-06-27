@@ -20,10 +20,13 @@ function Contact() {
     formData.append("message", message);
 
     try {
-      const response = await fetch(`process.env.CONTACT_URL`, {
-        method: "POST",
-        body: formData,
-      });
+      const response = await fetch(
+        "https://getform.io/f/9f318209-bcfc-4d11-9087-84e68654599a",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
 
       if (response.status === 200) {
         setIsSent(true);
