@@ -1,7 +1,7 @@
 "use client";
-import NormalNavbar from "@/components/NavBar";
+import { useState, useEffect } from "react";
 import router from "next/router";
-import { useState } from "react";
+import NormalNavbar from "@/components/NavBar";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -10,24 +10,47 @@ function Contact() {
   const [isLoading, setIsLoading] = useState(false);
   const [isSent, setIsSent] = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsLoading(true);
+
     const formData = new FormData();
     formData.append("name", name);
     formData.append("email", email);
     formData.append("message", message);
-    console.log(formData);
-    const req = await fetch(
-      "https://getform.io/f/9f318209-bcfc-4d11-9087-84e68654599a",
-      {
-        method: "POST",
-        body: formData,
+
+    try {
+      const response = await fetch(
+        "https://getform.io/f/9f318209-bcfc-4d11-9087-84e68654599a",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
+
+      if (response.status === 200) {
+        setIsSent(true);
+        setName("");
+        setEmail("");
+        setMessage("");
+        setIsLoading(false);
+        router.push("/Success");
       }
-    );
-    if (req.status === 200) {
-      router.push("/Success");
+    } catch (error) {
+      console.error("Error sending message:", error);
+      setIsLoading(false);
     }
   };
+
+  useEffect(() => {
+    if (isSent) {
+      const timer = setTimeout(() => {
+        setIsSent(false);
+      }, 3000);
+
+      return () => clearTimeout(timer);
+    }
+  }, [isSent]);
 
   return (
     <main className="min-w-screen bg-lightgreen flex min-h-screen flex-col">
@@ -39,7 +62,7 @@ function Contact() {
 
       <div className="bg-lightgreen flex h-4/6 items-center justify-center">
         <form onSubmit={handleSubmit} className="w-5/6 lg:w-1/2">
-          <input name="_input" type="hidden" className="hidden"></input>
+          <input name="_input" type="hidden" className="hidden" />
           <div className="w-full">
             <input
               type="text"
@@ -48,7 +71,7 @@ function Contact() {
               onChange={(e) => setName(e.target.value)}
               className="lg:placeholder:text-md h-10 w-full rounded-lg pl-2 shadow-inner"
               placeholder="Name"
-            ></input>
+            />
           </div>
           <div className="mt-6 w-full">
             <input
@@ -58,7 +81,7 @@ function Contact() {
               onChange={(e) => setEmail(e.target.value)}
               className="lg:placeholder:text-md h-10 w-full rounded-lg pl-2 shadow-inner"
               placeholder="Email"
-            ></input>
+            />
           </div>
           <div className="mt-6 w-full">
             <textarea
@@ -67,13 +90,28 @@ function Contact() {
               onChange={(e) => setMessage(e.target.value)}
               className="h-24 w-full resize-y rounded-lg bg-gray-200 pl-2 pt-2 shadow-inner placeholder:text-sm lg:placeholder:text-lg"
               placeholder="Enter Your Message Here"
-            ></textarea>
+            />
           </div>
           <div className="flex justify-center">
-            <button className="bg-clear-white text-green mt-6 w-1/2 rounded-full p-2 shadow-inner hover:shadow-2xl">
-              Submit!
+            <button
+              type="submit"
+              disabled={isLoading}
+              className={`bg-clear-white text-green relative mt-6 w-1/2 rounded-full p-2 shadow-inner hover:shadow-2xl ${
+                isLoading ? "flex items-center justify-center" : ""
+              }`}
+            >
+              {isLoading ? (
+                <div className="flex h-10 w-10 items-center justify-center">
+                  <div className="border-green h-5 w-5 animate-spin rounded-full border-b-2 py-4"></div>
+                </div>
+              ) : (
+                "Submit!"
+              )}
             </button>
           </div>
+          {isSent && (
+            <p className="text-green mt-2 text-center">Message Sent!</p>
+          )}
         </form>
       </div>
     </main>
