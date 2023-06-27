@@ -10,7 +10,7 @@ function Contact() {
   const [isLoading, setIsLoading] = useState(false);
   const [isSent, setIsSent] = useState(false);
 
-  const handleSubmit = async (e: { preventDefault: () => void; }) => {
+  const handleSubmit = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
     setIsLoading(true);
 
@@ -20,13 +20,10 @@ function Contact() {
     formData.append("message", message);
 
     try {
-      const response = await fetch(
-        "https://getform.io/f/9f318209-bcfc-4d11-9087-84e68654599a",
-        {
-          method: "POST",
-          body: formData,
-        }
-      );
+      const response = await fetch(`process.env.CONTACT_URL`, {
+        method: "POST",
+        body: formData,
+      });
 
       if (response.status === 200) {
         setIsSent(true);
@@ -110,7 +107,9 @@ function Contact() {
             </button>
           </div>
           {isSent && (
-            <p className="text-green mt-2 text-center font-semibold">Message Sent!</p>
+            <p className="text-green mt-2 text-center font-semibold">
+              Message Sent!
+            </p>
           )}
         </form>
       </div>
