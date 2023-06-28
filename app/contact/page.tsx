@@ -21,7 +21,7 @@ function Contact() {
 
     try {
       const response = await fetch(
-        "https://getform.io/f/9f318209-bcfc-4d11-9087-84e68654599a",
+        `https://getform.io/f/${process.env.GETFORM_URL}}`,
         {
           method: "POST",
           body: formData,
