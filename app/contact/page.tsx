@@ -69,7 +69,7 @@ function Contact() {
               id="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="lg:placeholder:text-md h-10 w-full rounded-lg pl-2 shadow-inner"
+              className="lg:placeholder:text-md h-10 w-full rounded-lg pl-2 shadow-inner text-black"
               placeholder="Name"
             />
           </div>
@@ -79,7 +79,7 @@ function Contact() {
               id="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="lg:placeholder:text-md h-10 w-full rounded-lg pl-2 shadow-inner"
+              className="lg:placeholder:text-md h-10 w-full rounded-lg pl-2 shadow-inner text-black"
               placeholder="Email"
             />
           </div>
@@ -88,7 +88,7 @@ function Contact() {
               id="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              className="h-24 w-full resize-y rounded-lg bg-gray-200 pl-2 pt-2 shadow-inner placeholder:text-sm lg:placeholder:text-lg"
+              className="h-24 w-full resize-y rounded-lg bg-gray-200 pl-2 pt-2 shadow-inner placeholder:text-sm lg:placeholder:text-lg text-black"
               placeholder="Enter Your Message Here"
             />
           </div>
