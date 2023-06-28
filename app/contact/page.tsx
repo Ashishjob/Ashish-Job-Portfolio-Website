@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect } from "react";
-import router from "next/router";
 import NormalNavbar from "@/components/NavBar";
 
 function Contact() {
@@ -21,7 +20,7 @@ function Contact() {
 
     try {
       const response = await fetch(
-        `https://getform.io/f/${process.env.GETFORM_URL}}`,
+        `https://getform.io/f/${process.env.NEXT_PUBLIC_CONTACT_URL}`,
         {
           method: "POST",
           body: formData,
@@ -34,7 +33,6 @@ function Contact() {
         setEmail("");
         setMessage("");
         setIsLoading(false);
-        router.push("/Success");
       }
     } catch (error) {
       console.error("Error sending message:", error);
